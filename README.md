@@ -54,6 +54,9 @@ bno055_usb_stick_msgs https://github.com/yoshito-n-students/bno055_usb_stick_msg
 * invert transfom in tf message or not
 * frame ids in tf message will NOT be swapped
 
+## Covariance 
+* The value is set following the datasheet of the manufacturer 
+
 ## Troubleshooting
 `[ERROR] []: start: open: Permission denied`
 * give permission to the current user by `sudo usermod -aG dialout $USER`. This command is for ubuntu 16.04 and may vary for other environments.
